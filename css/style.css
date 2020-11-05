@@ -1,0 +1,522 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #707070;
+    font-family: Arial;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    min-height: 10vw;
+    background-color: #f8f6f6;
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    padding-top: 16vw;
+}
+
+#logo{
+    width: 28vw;
+    margin-left: 33vw;
+}
+
+#logo img{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul li{
+    float: right;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 4.5vw;
+    margin-left: 7.5vw;
+    flex-direction: row;
+}
+
+section{
+    width: 90vw;
+    min-height: 50vh;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-top: 5vw;
+    padding-right: 5vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section h1{
+    font-size: 6vw;
+    font-weight: bold;
+    width: 100%;
+}
+
+section .content div{
+    width: 100%;
+    margin-top: 3vw;
+    
+}
+
+section .content div p{
+    font-size: 5vw ;
+    text-align: center;
+    width: 100%;
+}
+
+#img-sobre{
+    display: flex;
+    align-items: flex-end;
+}
+
+#img-sobre div{
+    width: 50%;
+    border: 1px solid #707070;
+    margin-right: 2vw;
+}
+
+#img-sobre div img{
+    width: 100%;
+}
+
+#info p{
+    text-align: center;
+}
+
+#cursos{
+    border: 1px solid #707070;
+    width: 100vw;
+    margin-top: 5vw;
+}
+
+#web-design h2{
+    background-color: #EEE8E8;
+    text-align: center;
+    border-top: solid #58DD77 4px;
+    width: 90%;
+    margin-left: 4vw;
+    font-size: 5vw;
+    height: 14vw;
+    padding-top: 3vw;
+}
+
+#web-design div img{
+    margin-left: 9vw;
+    width: 60vw;
+}
+
+#programacao h2{
+    background-color: #EEE8E8;
+    text-align: center;
+    border-top: solid #DD5861 4px;
+    width: 90%;
+    margin-left: 4vw;
+    font-size: 5vw;
+    height: 14vw;
+    padding-top: 3vw;
+}
+
+#programacao div img{
+    margin-left: 9vw;
+    width: 60vw;
+}
+
+#banco-dados h2{
+    background-color: #EEE8E8;
+    text-align: center;
+    border-top: solid #5858DD 4px;
+    width: 90%;
+    margin-left: 4vw;
+    font-size: 5vw;
+    height: 14vw;
+    padding-top: 3vw;
+}
+
+#banco-dados div img{
+    margin-left: 9vw;
+    width: 60vw;
+}  
+
+#planos{
+    border: 1px solid #707070;
+    width: 100vw;
+}
+
+#bronze{
+    background-color: #C59B12; 
+    font-size: 6vw;
+    font-weight: bold;
+    padding-top: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.content2 h2{
+    background-color: #EEE8E8;
+    text-align: center;
+    border: solid 0.1vw #000000;
+    font-size: 6vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.content2 div ul li{
+    list-style: none;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    font-size: 5vw;
+}
+
+.content2 div ul{
+    background-color: #ffffff;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#prata{
+    background-color: #F7F0F1; 
+    font-size: 6vw;
+    font-weight: bold;
+    padding-top: 3vw;
+    border: solid 0.1vw #000000;
+    margin-top: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#ouro{
+    background-color: #F1F115; 
+    font-size: 6vw;
+    font-weight: bold;
+    padding-top: 3vw;
+    margin-top: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#valores p{
+    text-align: left;
+} 
+
+#qld h2{
+    border-left: solid 6px #4632fd;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    font-size: 6vw;
+}
+
+#efc h2{
+    border-left: solid 6px #fe2222;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    font-size: 6vw;
+}
+
+#cmp h2{
+    border-left: solid 6px #098809;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    font-size: 6vw;
+}
+
+#inv h2{
+    border-left: solid 6px #f4fb30;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    font-size: 6vw;
+}
+
+#psq h2{
+    border-left: solid 6px #f632fd;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    font-size: 6vw;
+}
+
+#qld2 h2{
+    border-left: solid 6px #32c3fd;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    font-size: 6vw;
+}
+
+footer{
+    margin-top: 3vw;
+    margin-left: 20vw;
+}
+
+@media only screen and (min-width: 1020px){
+    header{
+		flex-direction: row;
+        padding: 3vh;
+        min-height: 4.5vw;
+	}
+	
+	nav{
+		justify-content: flex-end;
+		margin-left: 33vw;
+		margin-right: 2vw;
+        margin-top: 2vw;
+        
+	}
+	
+	nav ul li a{
+		margin-left: 6vw;
+        font-weight: bold;
+        font-size: 1.5vw;
+    }
+    
+    #logo{
+        width: 10vw;
+        margin-left: 2vw;
+    }
+
+    section h1{
+        font-size: 2vw;
+        width: 10%;
+    }
+	
+	.content{
+		flex-direction: row;
+	}
+	
+	section .content div p{
+		font-size: 1.7vw;
+		font-weight: bold;
+        text-align: center;
+        margin-top: 3vw;
+    }
+    
+    section .content div{
+        margin-top: 1vw;
+    }
+
+    #sobre{
+        height: 30vw;
+    }
+	
+	#info{
+		margin-right: 5vw;
+	}
+	
+	#img-sobre div{
+        
+        margin-bottom: 30vw;
+        width: 80%;
+    }
+    
+    #cursos{
+        margin-top: 2vw;
+        width: 100%;
+        display: block;
+        flex-direction: row;
+        border: none;
+        
+    }
+    
+    
+    #web-design{
+        float: left;
+    }
+
+    #programacao{
+        float: left;
+        margin-left: 3vw;
+    }
+
+    #banco-dados{
+        float: left;
+        margin-left: 3vw;
+    }
+
+    #web-design h2{
+        margin-top: 8vw;
+        border-top: solid #58DD77 16px;
+        margin-left: 0.5vw;
+        font-size: 2vw;
+        height: 7vw;
+        padding-top: 2vw;
+    }
+    
+    #web-design div img{
+        margin-left: 0.5vw;
+        width: 26vw;
+    }
+
+    #programacao h2{
+        margin-top: 3vw;
+        border-top: solid #DD5861 16px;
+        margin-left: 0.5vw;
+        font-size: 2vw;
+        height: 7vw;
+        padding-top: 2vw;
+    }
+    
+    #programacao div img{
+        margin-left: 0.5vw;
+        width: 26vw;
+    }
+
+    #banco-dados h2{
+        margin-top: 6vw;
+        border-top: solid  #5858DD 16px;
+        margin-left: 0.5vw;
+        font-size: 2vw;
+        height: 7vw;
+        padding-top: 2vw;
+    }
+    
+    #banco-dados div img{
+        margin-left: 0.5vw;
+        width: 26vw;
+    }
+    
+    #planos{
+        width: 100%;
+        flex-direction: row;
+        border: none;
+    }
+
+    #bronze{
+        float: left;
+        margin-top: 10vw;
+        font-size: 2vw;
+        padding-top: 2vw;
+        width: 30%;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    
+    .content2 h2{
+        font-size: 2vw;
+    }
+    
+    .content2 div ul li{
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        font-size: 1.5vw;
+        padding-left: 1vw;
+    }
+
+    
+    #prata{
+        float: left;
+        font-size: 2vw;
+        padding-top: 2vw;
+        margin-top: 6vw;
+        width: 30%;
+        margin-left: 2vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    
+    #ouro{
+        float: left;
+        font-size: 2vw;
+        padding-top: 2vw;
+        width: 30%;
+        margin-left: 2vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        margin-bottom: 5%;
+    }
+
+    #valores{
+        flex-direction: row;
+    }
+
+
+    #valores p{
+        text-align: left;
+        font-size: 1.2vw;
+        font-weight: normal;
+    }
+    
+
+    #valores .content3{
+        width: 100%;
+        flex-flow: row wrap;
+    }
+
+    #valores div{
+        height: 10%;
+        width: 32%;
+        margin-top: 3%;
+        float: left;
+        margin-left: 1vw;
+    }
+    
+    #qld h2{
+        border-left: solid 6px #4632fd;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        font-size: 2vw;
+    }
+    
+    #efc h2{
+        border-left: solid 6px #fe2222;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        font-size: 2vw;
+    }
+
+    #cmp{
+      
+    }
+    
+    #cmp h2{
+        border-left: solid 6px #098809;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        font-size: 2vw;
+    }
+    
+    #inv h2{
+        border-left: solid 6px #f4fb30;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        font-size: 2vw;
+    }
+    
+    #psq h2{
+        border-left: solid 6px #f632fd;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        font-size: 2vw;
+    }
+    
+    #qld2 h2{
+        border-left: solid 6px #32c3fd;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        font-size: 2vw;
+    }
+
+    .content3{
+        width: 100%;
+        flex-flow: row wrap;
+    }
+
+    footer{
+        margin-top: 40vw;
+        margin-left: 38vw;
+    }
+    
+}
+
